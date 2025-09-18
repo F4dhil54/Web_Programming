@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* Flexbox untuk 3 kolom */
+    display: flex;
+}
+
+/* Sidebar kiri */
+.sidebar-satu {
+    width: 20%;       /* Lebar sidebar */
+    margin-right: 20px;
+}
+
+/* Konten utama */
+.kolom-utama {
+    flex: 1;          /* Otomatis isi ruang tengah */
+    margin-right: 20px;
+}
+
+/* Sidebar kanan */
+.sidebar-dua {
+    width: 20%;       /* Lebar sidebar kanan */
+}

@@ -1,0 +1,26 @@
+h2{
+    color : orange;
+    font-family : Trebuched ms;
+    text-align : center;
+}
+
+.kotak{
+    padding: 50px;
+    width: 100px;
+    color: #fff;
+    margin: 10px;
+    background: orange;
+}
+
+#kotak{
+    whith: 400px;
+    color:#fff;
+    background: blue;
+    padding: 50px;
+}
+
+body{
+    background: url('img/tree.png'), url('img/field.png');
+    color: white;
+
+}
